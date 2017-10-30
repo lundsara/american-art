@@ -1,0 +1,126 @@
+body {
+ font-family: 'Yeseva One', cursive;
+  color: white
+
+
+}
+#intro {
+  font-size: 120px;
+  font-weight: 700px;
+  animation:
+    movein 3s steps(40, end);
+}
+
+/* The typing effect */
+@keyframes movein {
+  from { width: 0 }
+  to { width: 100% }
+
+}
+
+.container {
+  text-align: center;
+  font-size: 100px;
+  display: flex;
+  position: relative;
+}
+
+.btn {
+  height: 80px;
+  width: 400px;
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+  background-color: #c93838;
+  color: white;
+  border: 8px solid white;
+  margin: 80px;
+}
+
+input {
+  font-family: 'Yeseva One', cursive;
+  height: 60px;
+  width: 800px;
+  font-size: 40px;
+  color: black;
+  background-color: white;
+  margin: 20px, 80px, 20px, 80px;
+
+}
+
+p{
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    margin: 0 auto;
+   }
+
+img {
+  width: 600px;
+  height: 422px;
+  border: 20px solid white;
+  margin: 40px 0px 40px 0px
+}
+
+
+
+#testImage {
+  width: 616px;
+  height: 680px;
+  border: 20px solid white;
+  margin: 80px;
+
+}
+.answer {
+  background-color: #3299CC;
+  font-size: 80px;
+  padding: 10px 10px;
+  margin: 10px 40px;
+  border: solid white 16px;
+  display: flex;
+  flex: 0 50%;
+  height: 80px;
+  width: 1300px;
+  flex-direction: row;
+
+}
+
+#resultsPage{
+  visibility: hidden;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#gamePage {
+  align-items: center;
+  visibility: hidden;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#landingPage{
+  align-items: center;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  flex-direction: column;
+}
+.question {
+margin: 1200px 0px 0px 0px;
+color: white;
+}
+
+.answer:hover {
+    background-color: #7c6d84;
+}
+.btn:hover {
+    background-color: cornflowerblue;
+    transition: all ease-in-out .3s;
+}
+
+
+
+
