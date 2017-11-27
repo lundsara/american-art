@@ -225,6 +225,9 @@ body {
   max-width: 300px;
 
  }
+ main{
+  width: 100%;
+ }
 }
 
 
